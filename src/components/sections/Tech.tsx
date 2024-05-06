@@ -39,7 +39,7 @@ function Tech() {
 				whileInView="show"
 				viewport={{ once: true, amount: 0.25 }}
 			>
-				{technology.map((tech, index) => (
+				{technology.map((tech,) => (
 					<a href={tech.link} target="_blank" className="">
 
 						<div className="w-[40px] h-[40px] relative flex flex-row items-center group cursor-pointer">
