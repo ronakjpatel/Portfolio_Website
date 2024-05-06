@@ -28,7 +28,7 @@ import {
   retinalImg,
   edaProject,
   email_logo
-} from "../assets";
+} from "../../public/assets";
 
 export const navLinks: TNavLink[] = [
   {
@@ -77,64 +77,64 @@ const technologies = {
 	languages: [
 		{
 			name: "HTML5",
-			icon: "src/assets/tech/html5.svg",
+			icon: "assets/tech/html5.svg",
 			link: "https://html.spec.whatwg.org/multipage/"
 		},
 		{
 			name: "CSS3",
-			icon: "src/assets/tech/css3.svg",
+			icon: "assets/tech/css3.svg",
 			link: "https://www.w3.org/Style/CSS/Overview.en.html"
 		},
 		{
 			name: "JavaScript",
-			icon: "src/assets/tech/javascript.svg",
+			icon: "assets/tech/javascript.svg",
 			link: "https://262.ecma-international.org/"
     },
     {
 			name: "SQL",
-			icon: "src/assets/tech/sql.svg",
+			icon: "assets/tech/sql.svg",
 			link: "https://en.wikipedia.org/wiki/SQL"
     },
 		{
 			name: "C#",
-			icon: "src/assets/tech/c.svg",
+			icon: "assets/tech/c.svg",
 			link: "https://learn.microsoft.com/en-us/dotnet/csharp/"
 		},
 		{
 			name: "Java",
-			icon: "src/assets/tech/java.svg",
+			icon: "assets/tech/java.svg",
 			link: "https://www.java.com/en/"
 		},
 		{
 			name: "Python",
-			icon: "src/assets/tech/python.svg",
+			icon: "assets/tech/python.svg",
 			link: "https://www.python.org/"
     },
     {
 			name: "TypeScript",
-			icon: "src/assets/tech/typescript.svg",
+			icon: "assets/tech/typescript.svg",
 			link: "https://www.typescriptlang.org/"
     },
     {
 			name: "R Language",
-			icon: "src/assets/tech/Rlogo.svg",
+			icon: "assets/tech/Rlogo.svg",
 			link: "https://www.r-project.org/about.html#:~:text=R%20is%20a%20language%20and,by%20John%20Chambers%20and%20colleagues."
     },
 	],
 	frameworks: [
 		{
 			name: "Next.js",
-			icon: "src/assets/tech/nextjs.svg",
+			icon: "assets/tech/nextjs.svg",
 			link: "https://nextjs.org/"
 		},
 		{
 			name: "TailwindCSS",
-			icon: "src/assets/tech/tailwindcss.svg",
+			icon: "assets/tech/tailwindcss.svg",
 			link: "https://tailwindcss.com/"
     },
     {
 			name: "DotNet",
-			icon: "src/assets/tech/dotnet.svg",
+			icon: "assets/tech/dotnet.svg",
 			link: "https://dotnet.microsoft.com/en-us/"
 		},
 		
@@ -142,22 +142,22 @@ const technologies = {
 	libraries: [
 		{
 			name: "React",
-			icon: "src/assets/tech/react.svg",
+			icon: "assets/tech/react.svg",
 			link: "https://react.dev/"
 		},
 		{
 			name: "PyTorch",
-			icon: "src/assets/tech/pytorch.svg",
+			icon: "assets/tech/pytorch.svg",
 			link: "https://pytorch.org/"
 		},
 		{
 			name: "NumPy",
-			icon: "src/assets/tech/numpy.svg",
+			icon: "assets/tech/numpy.svg",
 			link: "https://numpy.org/"
 		},
 		{
 			name: "NextAuth.js",
-			icon: "src/assets/tech/nextauthjs.png",
+			icon: "assets/tech/nextauthjs.png",
 			link: "https://next-auth.js.org/"
 		},
 	
@@ -165,29 +165,29 @@ const technologies = {
 	tools: [
 		{
 			name: "Git",
-			icon: "src/assets/tech/git.svg",
+			icon: "assets/tech/git.svg",
 			link: "https://git-scm.com/"
 		},
 		{
 			name: "Github",
-			icon: "src/assets/tech/github.svg",
+			icon: "assets/tech/github.svg",
 			link: "https://github.com/"
 		},
 		{
 			name: "Docker",
-			icon: "src/assets/tech/docker.svg",
+			icon: "assets/tech/docker.svg",
 			link: "https://www.docker.com/"
 		}
 	],
 	environments: [
 		{
 			name: "Node.js",
-			icon: "src/assets/tech/nodejs.svg",
+			icon: "assets/tech/nodejs.svg",
 			link: "https://nodejs.org/en"
     },
     {
 			name: "Anaconda",
-			icon: "src/assets/tech/Anaconda.svg",
+			icon: "assets/tech/Anaconda.svg",
 			link: "https://www.anaconda.com/"
     }
     
@@ -195,19 +195,19 @@ const technologies = {
 	databases: [
 		{
 			name: "MongoDB",
-			icon: "src/assets/tech/mongodb.svg",
+			icon: "assets/tech/mongodb.svg",
 			link: "https://www.mongodb.com/"
 		},
 		{
 			name: "Firebase",
-			icon: "src/assets/tech/firebase.svg",
+			icon: "assets/tech/firebase.svg",
 			link: "https://firebase.google.com/"
 		}
   ],
   cloud: [
 		{
 			name: "Azure",
-			icon: "src/assets/tech/azure.svg",
+			icon: "assets/tech/azure.svg",
 			link: "https://azure.microsoft.com/en-ca"
 		},
 	]
