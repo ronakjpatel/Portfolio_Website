@@ -1,9 +1,5 @@
 import logo from "./logo.svg";
 
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-
 import solution from "./solution.png"
 import analytics from "./analytics.png"
 import developer from "./developer.png"
@@ -15,7 +11,7 @@ import edaProject from "./eda_project.png"
 
 
 
-import web from "./web.png";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -34,10 +30,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import concordia from "./education/creator.png"
 import swinburne from "./education/swinburne_logo.png"
 import gtu from "./education/gtu_logo.png"
@@ -58,17 +50,11 @@ export {
   developer,
   educator,
   chatnest,
-  backend,
-  creator,
   oldporfolio,
   retinalImg,
   edaProject,
   email_logo,
 
-
-
-  mobile,
-  web,
   github,
   menu,
   close,
@@ -85,9 +71,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+
   concordia,
   swinburne,
   gtu,

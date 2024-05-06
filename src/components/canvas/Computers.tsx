@@ -7,7 +7,7 @@ import CanvasLoader from "../layout/Loader";
 
 
 const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/test.glb");
+  const computer = useGLTF("./ThreeDModel/test.glb");
 
   return (
     <group>
