@@ -3,14 +3,9 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../layout/Loader";
-import { MeshStandardMaterial } from "three";
 
-const Floor = () => (
-  <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -70, 0]}>
-    <planeGeometry args={[400, 400]} />
-    <meshStandardMaterial color="#9a8c7a" />
-  </mesh>
-);
+
+
 const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/test.glb");
 
