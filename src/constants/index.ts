@@ -289,16 +289,16 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Business Intelligence Analyst",
+    title: "Software Developer",
     companyName: "Simplior Technologies",
     icon: simplior,
     iconBg: "#ffffff",
-    date: "Feb 2022 - Mar 2023",
+    date: "Feb 2021 - Oct 2023",
     points: [
-      "Utilised analytical thinking and problem-solving skills to successfully address and resolve complex business challenges, delivering data-backed solutions that resulted in a 5% improvement in operational efficiency.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Demonstrated a strong command of programming languages, including Python, R, and SQL, leveraging these tools to extract meaningful insights from complex data sets, resulting in data-driven decision-making.",
-      "Demonstrated exceptional organisational and presentation skills, producing 10+ influential reports and presentations that transformed complex data into actionable insights, resulting in a 6% revenue growth and informed strategic decisions.",
+      "Developed responsive web interfaces using React.js and Next.js, ensuring a pixel-perfect UI/UX implementation, resulting in a 5% increase in user engagement metrics.",
+      "Managed version control with Git and project progress with Jira, contributing to Agile/Scrum methodologies. Facilitated efficient team collaboration, resulting in a 12% increase in sprint velocity over the last 4 sprints.",
+      "Conducted code quality checks with SonarQube, optimizing performance and scalability in CI/CD pipelines.",
+      "Conducted comprehensive unit testing for both frontend and backend components, achieving a 20% increase in test coverage and a significant decrease in defect density, ensuring higher software reliability. Additionally, engineered robust C# .NET Core APIs to enhance backend functionality, resulting in significant improvements in API response times and overall system performance.",
     ],
   },
   {
@@ -320,7 +320,7 @@ const testimonials: TTestimonial[] = [
   {
     testimonial:
       "I had the pleasure of working with Ronak on a Robotics project. He showed true leadership and really understood how to get the best out of people and technology. Ronak is a natural leader and a great team player, he will be an asset to any company.",
-    name: "Jai Farrell",
+    name: "Jai Farrell ",
     designation: "Senior Project Manager",
     company: "PEXA, Australia",
     image: jai_farrell,

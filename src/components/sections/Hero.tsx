@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { styles } from "../../constants/styles";
-import { ComputersCanvas } from "../canvas";
-import { config } from "../../constants/config";
+import { styles } from '../../constants/styles';
+import { ComputersCanvas } from '../canvas';
+import { config } from '../../constants/config';
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
-      
+
       {/* Little Dot appearing on the computer */}
       <div className="xs:bottom-10 absolute bottom-32 flex w-full items-center justify-center">
         <a href="#about">
@@ -39,7 +39,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="bg-secondary mb-1 h-3 w-3 rounded-full"
             />

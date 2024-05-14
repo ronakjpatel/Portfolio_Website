@@ -9,9 +9,6 @@ import oldporfolio from "./old_portfolio.png"
 import retinalImg from "./retinal_image.png"
 import edaProject from "./eda_project.png"
 
-
-
-
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
